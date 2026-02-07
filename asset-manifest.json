@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/vishwakarmaSanga-website/static/css/main.5b646a68.css",
+    "main.js": "/vishwakarmaSanga-website/static/js/main.274957cc.js",
+    "static/media/logo.png": "/vishwakarmaSanga-website/static/media/logo.14ab0eed572a77dc8670.png",
+    "static/media/devi.png": "/vishwakarmaSanga-website/static/media/devi.5f9e356a48317c978008.png",
+    "static/media/slide2.png": "/vishwakarmaSanga-website/static/media/slide2.296e082f055eaa0d341f.png",
+    "static/media/slide1.png": "/vishwakarmaSanga-website/static/media/slide1.f992724bc033c8eb230b.png",
+    "static/media/slide3.png": "/vishwakarmaSanga-website/static/media/slide3.ad0f16a28ac83d349fba.png",
+    "static/media/profile.png": "/vishwakarmaSanga-website/static/media/profile.c927e6dbcd8ad952d29b.png",
+    "static/media/activity10.jpeg": "/vishwakarmaSanga-website/static/media/activity10.bb965b3e29fc419c0dc4.jpeg",
+    "static/media/activity8.jpeg": "/vishwakarmaSanga-website/static/media/activity8.2d15f2ecbcd26e07f334.jpeg",
+    "static/media/activity9.jpeg": "/vishwakarmaSanga-website/static/media/activity9.c418573d5b3241bda77f.jpeg",
+    "static/media/activity11.jpeg": "/vishwakarmaSanga-website/static/media/activity11.f19cc92dc94ef74f1163.jpeg",
+    "static/media/activity13.jpeg": "/vishwakarmaSanga-website/static/media/activity13.e685b9acd097df81d957.jpeg",
+    "static/media/activity12.jpeg": "/vishwakarmaSanga-website/static/media/activity12.76e1ef095b596a230795.jpeg",
+    "static/media/activity1.jpeg": "/vishwakarmaSanga-website/static/media/activity1.0137d53298d424e5f835.jpeg",
+    "static/media/activity7.jpeg": "/vishwakarmaSanga-website/static/media/activity7.0730ef231dc920cb12e4.jpeg",
+    "static/media/activity14.jpeg": "/vishwakarmaSanga-website/static/media/activity14.c7fd9f92121387a7c472.jpeg",
+    "static/media/activity3.jpeg": "/vishwakarmaSanga-website/static/media/activity3.69f6fb236d89786452a9.jpeg",
+    "static/media/activity5.jpeg": "/vishwakarmaSanga-website/static/media/activity5.689cf4b5f0eb63648b43.jpeg",
+    "static/media/activity4.jpeg": "/vishwakarmaSanga-website/static/media/activity4.2f4d70df4cf84df3fc6c.jpeg",
+    "static/media/activity2.jpeg": "/vishwakarmaSanga-website/static/media/activity2.5eb4f6d5145d9b976117.jpeg",
+    "static/media/activity6.jpeg": "/vishwakarmaSanga-website/static/media/activity6.bbfb06356dbe8c588499.jpeg",
+    "index.html": "/vishwakarmaSanga-website/index.html",
+    "main.5b646a68.css.map": "/vishwakarmaSanga-website/static/css/main.5b646a68.css.map",
+    "main.274957cc.js.map": "/vishwakarmaSanga-website/static/js/main.274957cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b646a68.css",
+    "static/js/main.274957cc.js"
+  ]
+}
