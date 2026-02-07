@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #020617;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #020617;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* PAGE LAYOUT */
+/* GLOBAL PAGE FIX */
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #020617;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+/* ===== ANIMATED BACKGROUNDS ===== */
+.home-bg,
+.about-bg,
+.members-bg,
+.activity-bg,
+.contact-bg {
+  min-height: 100vh;            /* 🔥 KEY FIX */
+  width: 100%;
+  background-size: 400% 400%;
+  animation: bgMove 10s ease infinite;
+}
+
+/* page-specific colors */
+.home-bg {
+  background: linear-gradient(135deg, #020617, #1e293b, #020617);
+}
+
+.about-bg {
+  background: linear-gradient(135deg, #020617, #1e3a8a, #020617);
+}
+
+.members-bg {
+  background: linear-gradient(135deg, #020617, #064e3b, #020617);
+}
+
+.activity-bg {
+  background: linear-gradient(135deg, #020617, #4c1d95, #020617);
+}
+
+.contact-bg {
+  background: linear-gradient(135deg, #020617, #0f766e, #020617);
+}
+
+/* animation */
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* THIS pushes footer to bottom */
+}

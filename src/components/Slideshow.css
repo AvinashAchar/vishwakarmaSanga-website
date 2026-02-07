@@ -1,0 +1,14 @@
+.slideshow {
+  height: 350px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  animation: slide 12s infinite;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+@keyframes slide {
+  0% { background-image: url("https://picsum.photos/800/500?1"); }
+  50% { background-image: url("https://picsum.photos/800/500?2"); }
+  100% { background-image: url("https://picsum.photos/800/500?3"); }
+}

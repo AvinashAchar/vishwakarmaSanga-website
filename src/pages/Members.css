@@ -1,0 +1,86 @@
+/* =====================
+   MEMBERS PAGE BACKGROUND
+===================== */
+.members-bg {
+  background: radial-gradient(
+    circle at top,
+    #0f172a,
+    #020617 70%
+  );
+  width: 100%;
+}
+
+/* =====================
+   GRID LAYOUT
+===================== */
+.members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+/* =====================
+   MEMBER CARD
+===================== */
+.member-card {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 25px 20px;
+  border-radius: 18px;
+  text-align: center;
+  transition: transform 0.4s, box-shadow 0.4s;
+  backdrop-filter: blur(6px);
+}
+
+/* PROFILE IMAGE */
+.member-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #22d3ee;
+  object-fit: cover;
+  background: transparent;
+}
+
+/* NAME */
+.member-card h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #e5e7eb;
+}
+
+/* DECOR TEXT */
+.member-card p {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* HOVER EFFECT */
+.member-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(34, 211, 238, 0.8);
+}
+
+/* =====================
+   MOBILE VIEW
+===================== */
+@media (max-width: 768px) {
+  .members {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .member-card {
+    padding: 20px 15px;
+  }
+
+  .member-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .member-card h4 {
+    font-size: 15px;
+  }
+}

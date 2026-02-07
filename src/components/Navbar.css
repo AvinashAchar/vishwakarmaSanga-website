@@ -1,0 +1,102 @@
+/* NAVBAR CONTAINER */
+.nav {
+  height: 70px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  overflow: hidden; /* 🔥 prevents cut-off */
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+/* NAV LINKS */
+.nav-item {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s;
+  white-space: nowrap; /* 🔥 prevents wrap */
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #22d3ee;
+}
+
+/* LOGO CONTAINER */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* 🔥 logo never shrinks */
+}
+
+/* LOGO IMAGE */
+.logo img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0;
+}
+
+/* LOGO HOVER */
+.logo img:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .nav {
+    height: auto;
+    padding: 10px 16px;
+  }
+
+  .menu {
+    gap: 14px;
+    flex-wrap: wrap; /* 🔥 allow wrap if needed */
+  }
+
+  .nav-item {
+    font-size: 14px;
+    gap: 4px;
+  }
+
+  .logo img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* ============== VERY SMALL DEVICES ============== */
+@media (max-width: 420px) {
+  .nav {
+    padding: 8px 12px;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .nav-item span {
+    display: none; /* 🔥 icons only */
+  }
+
+  .logo img {
+    width: 32px;
+    height: 32px;
+  }
+}
